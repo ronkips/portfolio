@@ -28,6 +28,7 @@ ul {
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 25%;
 }
 .btn-ligth {
   /* background: rgba(255, 255, 255, 0.2); */

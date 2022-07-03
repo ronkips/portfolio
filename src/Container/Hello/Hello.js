@@ -1,6 +1,6 @@
 import './Hello.css'
 import React from 'react'
-import Basketball from '../assets/basketball.jpeg'
+import Basketball from '../assets/kip.jpg'
 import { Link } from 'react-router-dom'
 
 const Hello = () => {
@@ -10,10 +10,10 @@ const Hello = () => {
         <img className="into-img" src={Basketball} alt="Basketball" />
       </div>
       <div className="content">
-        <p>Hello, Iam Hillary.</p>
+        <p>Hello, I am Hillary.</p>
         <h1>A Software Developer.</h1>
 <Link to="projects" className='btn'>PROJECTS</Link>
-<Link to="/contact" className='btn'>CONTACT</Link>
+<Link to="/contact" className='btn btn-light'>CONTACT</Link>
       </div>
     </div>
   )
